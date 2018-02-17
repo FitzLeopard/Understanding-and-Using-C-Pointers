@@ -3,6 +3,8 @@
  to the pointer's data type. For example, a four-byte
  integer would be allocated on an address boundary
  evenly divisible by four.
+
+ So far, I have to say, the rule is true.
  ****************************************************/
 
 #include<stdio.h>
