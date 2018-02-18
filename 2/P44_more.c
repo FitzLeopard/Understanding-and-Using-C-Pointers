@@ -11,6 +11,8 @@ int main()
 	string2 = (char *)realloc(string1, 138750);						//very large memory, force the runtime environment to start from a new region
 	printf("string1 Value: %p [%s]\n", (void *)string1, string1);
 	printf("string2 Value: %p [%s]\n", (void *)string2, string2);
+	free(string1);
+	free(string2);
 
 	return 0;
 }
