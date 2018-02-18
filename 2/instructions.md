@@ -60,3 +60,22 @@ int main()
 }
 ```
 The example is in the source file **P42**\_**solution.c**.
+
+### P44
+##### Less
+When we use **realloc** function to allocate memory---`realloc(void * ptr, size_t size)`,
+the size may be smaller than the original size of previously allocated memory. When this 
+happens, the excess memory will be **returned** to the heap, but there is no guarantee that 
+the excess memory will be **cleared**. And even the returned excess memory can be accessed 
+as if it is legal.
+
+The example is in the source file **P44**\_**less.c**.
+##### More
+When we use **realloc** function to allocate memory, there is also the chance that the size 
+may be larger than the original size of previously allocated memory. When this happens, 
+if possible, memory will be allocated right after the current region. Otherwise, `the current
+ region will not be changed and memory will be allocated from a different region.` **as the book
+ sais**. But actually, the current region seems to be changed in an **extremely weired** way, and
+ I have not thought of any explanation **why** this happens so far.
+
+The example is in the source file **P44**\_**more.c**.
