@@ -79,3 +79,9 @@ if possible, memory will be allocated right after the current region. Otherwise,
  I have not thought of any explanation **why** this happens so far.
 
 The example is in the source file **P44**\_**more.c**.
+###### One more discovery about More(disadvantage)
+Also, I discovered that if the size is a variable, it may cause difficulty for us to use **free** 
+function since whether the **returned pointer** is the same as the **argument** pointer depends on 
+the size. So if we freed both of the pointers, we must take the risk that we may free the same 
+memory twice. But if we free only one of the pointers, we must take the risk of potential memory 
+leaking.
