@@ -1,0 +1,88 @@
+commit 2734c081a5fcbac30bd27c0c859a2cf97d868b85
+Author: FitzLeopard <1796229518@qq.com>
+Date:   Sun Feb 18 23:24:29 2018 +0800
+
+    I added a new discovery about the Page 44 statement about the larger size.
+    It is a disadvantage about deallocating the memory.
+
+commit 7b17ed2f15cd19179eb7c74a7e6e225d273f8ff6
+Author: FitzLeopard <1796229518@qq.com>
+Date:   Sun Feb 18 23:20:06 2018 +0800
+
+    Added the 'free' function at the end of the two source files P44_less.c and P44_more.c to make it perfect.
+
+commit c7910443d8be4131b073882235880520856d0684
+Author: FitzLeopard <1796229518@qq.com>
+Date:   Sun Feb 18 20:42:55 2018 +0800
+
+    Revised a spelling mistake and changed the subsubtitle font from 5 to 4.
+
+commit c8ceea62714094ecbe64de05b4a8b1d80d49b649
+Author: FitzLeopard <1796229518@qq.com>
+Date:   Sun Feb 18 20:37:31 2018 +0800
+
+    Added the instructions about Page 44 statement and two source files 'P44_more.c' and 'P44_less.c'.
+
+commit fa2d6b28868bfd377842ff091d28dead7818c7b8
+Author: FitzLeopard <1796229518@qq.com>
+Date:   Sun Feb 18 20:36:11 2018 +0800
+
+    Added two source files P44_less.c and P44_more.c for the Page 44 statement about 'realloc'.
+
+commit 8c4df640a6a7d5f0852dec5434cce06a979cb138
+Author: FitzLeopard <1796229518@qq.com>
+Date:   Sun Feb 18 14:27:18 2018 +0800
+
+    Corrections in the instructions.md about the format and syntax.
+
+commit 36b4e535301e607aa488760bb6dffc7cf8ce40d5
+Author: FitzLeopard <1796229518@qq.com>
+Date:   Sun Feb 18 13:58:35 2018 +0800
+
+    Added two source files P42.c and P42_solution.c.
+
+commit 2e1638cffcd86b27b8dc036cff0f97c399a5fc3c
+Author: FitzLeopard <1796229518@qq.com>
+Date:   Sun Feb 18 13:57:42 2018 +0800
+
+    Deleted the instructions in the comment of P39.c since all the instructions are included in the instructions.md.
+
+commit 7c8572155985d54d1fe40feb726bd916e45487f2
+Author: FitzLeopard <1796229518@qq.com>
+Date:   Sun Feb 18 13:54:38 2018 +0800
+
+    Added the instructions about the P39 and P42 source file.
+
+commit d75819716b98060a86ee76805c84b821ea96ca56
+Author: FitzLeopard <1796229518@qq.com>
+Date:   Sun Feb 18 13:54:11 2018 +0800
+
+    Added the instructions about the P39 and P42 source file.
+
+commit 71f0e7f943e426d0c6dbada4706695aafc0e734b
+Author: FitzLeopard <1796229518@qq.com>
+Date:   Sun Feb 18 13:33:38 2018 +0800
+
+    The file instructions.md should not be ignored
+
+commit fe7007955c6e3b02d8e9b754a5a04fcf28c867b2
+Author: FitzLeopard <1796229518@qq.com>
+Date:   Sat Feb 17 22:27:52 2018 +0800
+
+    Added the result to the experiment to the comment of the source file
+
+commit ed7b5bb29d16357326c0d8bb1a0e9d90eac37ef6
+Author: FitzLeopard <1796229518@qq.com>
+Date:   Sat Feb 17 22:23:08 2018 +0800
+
+    I added:
+    1. the directory '2'
+    2. the first source file 'P39.c' (used to verify the claim on Page 39)
+    3. the .gitignore file for 2
+    
+    And I decided for all directory the '.gitignore' file will be the same:
+    
+    *
+    !*.c
+    !*.cpp
+    !.gitignore
